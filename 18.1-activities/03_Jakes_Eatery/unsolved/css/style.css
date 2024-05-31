@@ -1,0 +1,171 @@
+/* Navigation styles */
+.logo {
+    background: white; /* Set the background color of the logo */
+
+    height: 230px; /* Set the height of the logo */
+
+    background-image: url("../images/jakes-logo.png"); /* Set the background image */
+
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+
+    background-position: center; /* Center the background image */
+}
+
+.nav {
+    display: flex; /* Display the items as a flex container */
+
+    background-color: black; /* Set the background color of the navigation */
+
+    padding: 20px; /* Add padding to the navigation */
+}
+
+.left, .center, .right {
+    height: 50px; /* Set the height of the navigation items */
+
+    display: flex; /* Display the items as a flex container */
+
+    align-items: center; /* Center the items vertically */
+
+    justify-content: center; /* Center the items horizontally */
+
+}
+
+.left, .right {
+    width: 25%; /* Set the width of the left and right columns */
+}
+
+.center {
+    width: 50%; /* Set the width of the center column */
+}
+
+.center a {
+    color: white; /* Set the color of the links */
+
+    text-decoration: none; /* Remove the underline from the links */
+
+    font-size: 18px; /* Set the font size of the links */
+
+    padding: 10px; /* Add padding to the links */
+
+    font-family: Arial; /* Set the font family */
+}
+
+button {
+    color: black; /* Set the color of the button */
+
+    font-size: 16px; /* Set the font size of the button */
+
+    padding: 15px; /* Add padding to the button */
+
+    width: 50%; /* Set the width of the button */
+}
+
+.right button {
+    background-color: yellow; /* Set the background color of the button */
+}
+
+.left button {
+    background-color: skyblue; /* Set the background color of the button */
+}
+/* Column styles */
+.column {
+    display: flex; /* Display the items as a flex container */
+
+    height: 1200px; /* Set the height of the columns */
+
+    width: 800px; /* Set the width of the columns */
+
+    flex-direction: column; /* Display the items as a column */
+
+    margin: 0 auto; /* Center the columns */
+}
+
+.meal1, .meal2, .meal3 {
+    height: 100%; /* Set the height of the columns */
+
+    width: 100%; /* Set the width of the columns */
+
+    display: flex; /* Display the items as a flex container */
+
+    align-items: flex-end; /* Align the items to the bottom of the column */
+
+    margin-bottom: 20px; /* Add margin to the bottom of each column */
+
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+
+    background-position: center; /* Center the background image */
+}
+
+.meal1 {
+    margin-top: 20px; /* Add margin to the top of the first column */
+
+    background-image: url("../images/steak.png"); /* Set the background image */
+}
+
+.meal2 {
+    background-image: url("../images/soup.png"); /* Set the background image */
+}
+
+.meal3 {
+    background-image: url("../images/cheesecake.png"); /* Set the background image */
+}
+
+.text { 
+    background: rgb(0, 0, 0, 0.7); /* Set the background color of the text */
+
+    width: 100%; /* Set the width of the text */
+
+    padding: 20px 40px; /* Add padding to the text */
+
+    color: white; /* Set the color of the text */
+}
+
+.text p {
+    color: rgba(255, 255, 255, 0.7); /* Set the color of the text */
+
+    font-family: Arial, Helvetica, sans-serif; /* Set the font family */
+}
+
+.text h1 {
+    font-family: 'Times New Roman', Times, serif; /* Set the font family */
+}
+/* Footer Styles */
+.footer {
+    display: flex; /* Display the items as a flex container */
+
+    background-color: black; /* Set the background color of the footer */
+
+    padding: 20px; /* Add padding to the footer */
+
+    justify-content: center; /* Center the items within the footer */
+}
+
+.fb, .tw, .ig {
+    height: 50px; /* Set the height of the icons */
+
+    display: flex; /* Display the items as a flex container */
+
+    align-items: center; /* Center the items vertically */
+
+    justify-content: center; /* Center the items horizontally */
+
+    width: auto; /* Adjust to fit content */
+
+    margin: 0 20px; /* Add margin to create spacing between items */
+
+    text-decoration: none; /* Remove the underline from the links */
+
+    font-family: Arial, Helvetica, sans-serif; /* Set the font family */
+}
+
+.fb {
+    color: skyblue; /* Set the color of the icon */
+}
+
+.tw {
+    color: yellow; /* Set the color of the icon */
+}
+
+.ig {
+    color: red; /* Set the color of the icon */
+}
